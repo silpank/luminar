@@ -1,0 +1,460 @@
+
+#navbarNav {
+    justify-content: end;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #313131;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px 10px !important;
+    border-bottom: 2px solid transparent;
+}
+
+
+.nav-link:hover {
+    color: #6d1d8e !important;
+    border-bottom: 2px solid #6d1d8e !important;
+    transition: all 1s ease-in;
+}
+
+.nav-link.active {
+    color: #6d1d8e !important;
+    border-bottom: 2px solid #6d1d8e !important;
+}
+
+/* course section */
+
+#courses {
+    background: #deccff;
+    padding: 50px;
+}
+
+#courses .container .course-header .courses-heading {
+    color: #6d1d8e;
+    font-weight: 600;
+    margin: 20px 0;
+    max-width: 470px;
+    font-size: 44px;
+}
+#courses .container .course-header .sub-heading {
+    color: #6d1d8e;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 20px 0;
+}
+
+#courses .container .course-header .courses-para {
+    color: #000;
+    max-width: 470px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+#courses .container .course-header .button-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    margin-top: 30px;
+}
+
+#courses .container .course-header .button-section .courses-btn {
+    background-color: #6d1d8e;
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    border-radius: 3rem;
+    border-color: #6d1d8e;
+}
+
+#courses .container .course-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* training program section */
+#training-program {
+    background: #fff;
+}
+
+#training-program .container .traing-program-wrapper {
+    text-align: center;
+    width: 600px;
+    margin: 70px auto;
+}
+
+#training-program .container .traing-program-wrapper .training-program-heading {
+    color: #6d1d8e;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+#training-program .container .traing-program-wrapper .training-program-para {
+    color: #515151;
+    padding-top: 35px;
+    font-size: 15px;
+}
+
+#training-program .container .courses-input-column {
+    padding: 40px;
+    padding-top: 0;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#training-program .container .courses-input-column .search-course {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #c5c5c5;
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+#training-program .container .courses-input-column .search-icon {
+    position: absolute;
+    right: 40px;
+    bottom: 50px;
+    font-size: 30px;
+    color: #6d1d8e;
+}
+
+#training-program .container .training-program-courses {
+    margin: 10px;
+}
+
+#training-program .container .training-program-courses .training-program-column {
+    padding: 25px;
+}
+
+.training-program-courses .training-program-column .training-program-card {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 8px;
+    border: 0;
+}
+
+.training-program-courses .training-program-column .training-program-card:hover{
+    background-color: #fff;
+    box-shadow: 0 0.3rem 3rem rgba(0,0,0,.2);
+    transition: .5s;
+}
+
+.training-program-courses .training-program-column .training-program-card .program-course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.training-program-card .program-course .program-course-icon-circle{
+    height: 150px;
+    width: 180px;
+    border-radius: 50%;
+    background: #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.training-program-card:hover .program-course .program-course-icon-circle {
+    background-color: #460b5e;
+}
+
+.training-program-card .program-course .program-course-icon-circle .program-icon {
+    width: 50%;
+    height: 50%;
+}
+
+.training-program-card:hover .program-course .program-course-icon-circle .program-icon{
+    filter: brightness(100);
+}
+
+.training-program-card .program-course .training-program-card-heading {
+    color: #6d1d8e;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 25px;
+}
+
+.training-program-card .program-course .training-program-card-para {
+    margin-top: 30px;
+    color: #515151;
+    font-size: 14px;
+}
+
+.training-program-card .program-course .training-program-details {
+    font-size: 15px;
+    font-weight: 400;
+    color: #515151;
+    height: 250px;
+}
+
+.training-program-card .program-course .training-program-details .training-program-sub-title {
+    color: #6d1d8e;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.training-program-card .program-course .training-program-details .training-program-sub-title.newline{
+    display: block;
+    font-size: 16px;
+}
+
+.training-program-card .program-course .training-program-card-button-section {
+    margin-top: 10px;
+}
+
+.training-program-card .program-course .training-program-card-button-section .training-program-card-button {
+    background-color: #f8f8f8;
+    color: #6d1d8e;
+    border-radius: 30px;
+    border: 2px solid #6d1d8e;
+    font-size: 18px;
+    width: 150px;
+    height: 45px;
+}
+
+.training-program-card:hover .program-course .training-program-card-button-section .training-program-card-button {
+    background-color: #460b5e;
+    color: #fff;
+}
+
+
+/* courses-why-luminar */
+
+#courses-why-luminar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#courses-why-luminar .courses-why-luminar-image {
+    width: 100%;
+}
+
+#courses-why-luminar .courses-why-luminar-text-section {
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+#courses-why-luminar .courses-why-luminar-text-section .why-luminar-heading {
+    font-size: 55px;
+    font-weight: 700;
+    color: #6d1d8e;
+    margin-top: 40px;
+}
+
+#courses-why-luminar .courses-why-luminar-text-section .why-luminar-para {
+    font-size: 15px;
+    color: #515151;
+    text-align: left;
+    width: 100%;
+    max-width: 550px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#courses-why-luminar .courses-why-luminar-text-section .why-luminar-list {
+    list-style-type: none;
+    font-size: 16px;
+    color: #515151;
+    font-weight: 700;
+    line-height: 2;
+    padding-left: 0;
+}
+
+#courses-why-luminar .courses-why-luminar-text-section .why-luminar-list li {
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    padding-left: 40px;
+    background-image: url(./list-icon.png);
+}
+
+
+#join-now-section {
+    height: 570px;
+    background: url(https://www.luminartechnolab.com/static/media/pexels-kindel-media-7054785.47b27e7d.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    background-position: bottom;
+}
+
+#join-now-section .join-now-heading {
+    padding-top: 120px;
+    font-size: 45px;
+    width: 100%;
+    line-height: 1.4;
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.join-now-para {
+    padding-top: 15px;
+    font-size: 15px;
+    color: #bb9867;
+    font-weight: 400;
+    text-align: center;
+}
+
+.join-now-button {
+    color: #6d1d8e;
+    padding: 10px 24px;
+    width: 162px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 50px;
+    outline: none;
+}
+
+#footer-section {
+    margin-top: 60px;
+}
+
+#footer-section .footer-container {
+    margin-left: 180px;
+    margin-right: 40px;
+}
+
+
+#footer-section .footer-container .luminar-footer-img{
+    width: 100%;
+    object-fit: contain;
+    height: 54px;
+    margin: 0 -20px 10px 0;
+}
+
+#footer-section .social-media-icons {
+    display: flex;
+}
+
+.social-media-icons a .icon {
+    width: 32px;
+    height: 32px;
+}
+
+.cirtification-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cirtification-wrap .national {
+    padding-top: 7px;
+    object-fit: contain;
+    width: 137px;
+    height: 71px;
+}
+
+.cirtification-wrap .iso {
+    padding-top: 0;
+    object-fit: contain;
+    width: 78px;
+    height: 65px;
+}
+
+.course {
+    font-weight: 700;
+    color: #6d1d8e;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.footer-hr {
+    color: #6d1d8e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.footer-courses-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-courses-list .footer-course-list-item {
+    color: #7e7e7e;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0.1px solid #fff;
+    font-weight: 400;
+    font-size: 15px;
+    width: 80%;
+    transition: 1s;
+}
+
+.footer-courses-list .footer-course-list-item:hover {
+    cursor: pointer;
+    color: #6d1d8e;
+    border-bottom: 0.1rem solid #6d1d8e;
+    transition: 1s;
+}
+
+.useful-links {
+    width: 60% !important;
+}
+
+.contact-us-place {
+    font-weight: 700;
+    color: #6d1d8e;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.contact-us-location {
+    margin: 0;
+    color: #7e7e7e;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.9;
+}
+
+.mavoor-road {
+    font-size: 14.5px;
+}
+
+.color-change {
+    color: #6d1d8e;
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.copy-right-section {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.copy-right-section p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.copy-right-section p span {
+    color: #6d1d8e;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.copy-right-section p span:hover {
+    color: #515151;
+}
